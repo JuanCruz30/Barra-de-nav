@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+}
+
+section{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+img{
+   
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50px;
+}
+.icons{
+    font-size: 15px;
+}
+.logo{
+    background-color: rgb(246, 246, 252);
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-around;
+}
+.nav1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    text-decoration: none;
+    outline: none;
+    
+}
+.nav1>a{
+    color: black;
+}
+input{
+    border: none;
+}
+.icono-placeholder{
+   
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   justify-content: flex-start;
+   display: flex; 
+   height: 25px;
+   border: none;
+  
+   outline: none;
+
+}
+.lupa{
+    display: flex; 
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 50px;
+    width: 200px;
+    height: 25px;
+    align-items: center;
+    
+   
+    
+}
+.lupa1{
+    border: none;
+    z-index: -1;
+    display: flex;
+    width: 34px;
+    text-align: center;
+    justify-content: center;
+}
+.lupa3{
+    display: flex;
+    text-align: start;
+    outline: none;
+}
+.nav2{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    color: red;
+    background-color: red;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 47.5%;
+    left: 78%;
+}
+
+/* hovers */
+.nav1>a:hover{
+    color: blueviolet;
+    transform: scale(0.9);
+
+}
